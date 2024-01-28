@@ -1,0 +1,36 @@
+/**
+ * Quick Mobile Mail JPN
+ *
+ * @package quickmailjpn
+ * @author  VERSION2 Inc.
+ * @version $Id: styles.css 4 2012-04-28 18:19:08Z yama $
+ */
+
+.block_quickmailjpn .nowrap { white-space: nowrap }
+
+.block_quickmailjpn .status-notset,
+.path-blocks-quickmailjpn .status-notyet
+{ color: #0000FF }
+.block_quickmailjpn .status-checking,
+.path-blocks-quickmailjpn .status-checking
+{ color: #FF0000 }
+.block_quickmailjpn .status-confirmed,
+ .path-blocks-quickmailjpn .status-confirmed
+{ color: #008000 }
+
+.block_quickmailjpn .explanation {
+    border: 1px solid gray;
+    padding: 4px;
+    margin: 0 auto 0.5em auto;
+}
+
+.block_quickmailjpn ol.statusexplanation { padding-left: 1.5em }
+
+.block_quickmailjpn .mymobilephone {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block_quickmailjpn ul li div {
+    width: 100%;
+}
